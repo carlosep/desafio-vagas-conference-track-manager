@@ -12,14 +12,19 @@ class MainMethods
   end
 
   def extract_times(array)
-    times = []
+    extracted = []
     array.each do |a|
+      temp = []
+      temp << a
       if(a.split.last != 'lightning')
-        times << a.scan(/\d/).join('').to_i
+        temp << a.scan(/\d/).join('').to_i
       else
-        times << 5
+        temp << 5
       end
+      extracted << temp
     end
-    extracted = [array,times]
+    extracted.sort_by(&:last)
   end
+
+
 end

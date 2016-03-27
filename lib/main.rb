@@ -1,7 +1,4 @@
 require_relative 'main_methods.rb'
-## Execution ##
-
-
 class Main
   mm = MainMethods.new
 
