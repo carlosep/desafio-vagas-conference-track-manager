@@ -1,16 +1,19 @@
 class Schedule
   def initialize
+    @result = ""
   end
 
   def fill_schedule(array)
     aux = []
     track = 0
+    result = ""
     loop do
       track += 1
-      set_schedule(array, aux, track)
+      result = set_schedule(array, aux, track)
       array -= aux
       break if ((array).length == 0)
     end
+    result
   end
 
   private
@@ -37,24 +40,24 @@ class Schedule
     display_schedule(track, morning_schedule, afternoon_schedule)
   end
 
-  def display_schedule(track, m, a)
+  def display_schedule(track, m, a, result = @result)
     t = Time.new(2016, 1, 1, 9,0,0)
-    puts "Track #{track}:"
+    result += "Track #{track}:\n"
     m.each do |m|
-      puts "#{t.strftime("%I:%M%p")} #{m[0]}"
+      result += "#{t.strftime("%I:%M%p")} #{m[0]}\n"
       t += m[1]*60
     end
-    puts '12:00PM Lunch'
+    result += "12:00PM Lunch\n"
     t = Time.new(2016, 1, 1, 13,0,0)
     a.each do |a|
-      puts "#{t.strftime("%I:%M%p")} #{a[0]}"
+      result += "#{t.strftime("%I:%M%p")} #{a[0]}\n"
       t += a[1]*60
     end
     if(t.hour < 16)
-      puts "04:00PM Networking Event"
+      result += "04:00PM Networking Event"
     else
-      puts "#{t.strftime("%I:%M%p")} Networking Event"
+      result += "#{t.strftime("%I:%M%p")} Networking Event\n\n"
     end
-    puts " "
+    @result = result
   end
 end
