@@ -1,5 +1,4 @@
 class MainMethods
-  ## Methods ##
   def inputs
     var = 'init'
     array = []
@@ -23,7 +22,7 @@ class MainMethods
       end
       extracted << temp
     end
-    extracted.sort_by(&:last)
+    extracted
   end
 
 

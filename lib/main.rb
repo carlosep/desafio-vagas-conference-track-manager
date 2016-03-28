@@ -1,4 +1,5 @@
 require_relative 'main_methods.rb'
+require_relative 'schedule.rb'
 class Main
   mm = MainMethods.new
 
@@ -7,5 +8,9 @@ class Main
 
   conferences = mm.extract_times(array)
 
-  puts conferences.inspect
+  s = Schedule.new
+
+  schedule = s.fill_schedule(conferences)
+
+  puts schedule
 end

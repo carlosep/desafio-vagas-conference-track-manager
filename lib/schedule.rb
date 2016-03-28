@@ -54,7 +54,7 @@ class Schedule
       t += a[1]*60
     end
     if(t.hour < 16)
-      result += "04:00PM Networking Event"
+      result += "04:00PM Networking Event\n\n"
     else
       result += "#{t.strftime("%I:%M%p")} Networking Event\n\n"
     end
