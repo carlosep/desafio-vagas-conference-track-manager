@@ -1,0 +1,32 @@
+Writing Fast Tests Against Enterprise Rails 60min
+Overdoing it in Python 45min
+Lua for the Masses 30min
+Ruby Errors from Mismatched Gem Versions 45min
+Common Ruby Errors 45min
+Rails for Python Developers lightning
+Communicating Over Distance 60min
+Accounting-Driven Development 45min
+Woah 30min
+Sit Down and Write 30min
+Pair Programming vs Noise 45min
+Rails Magic 60min
+Ruby on Rails: Why We Should Move On 60min
+Clojure Ate Scala (on my project) 45min
+Programming in the Boondocks of Seattle 30min
+Ruby vs. Clojure for Back-End Development 30min
+Ruby on Rails Legacy App Maintenance 60min
+A World Without HackerNews 30min
+User Interface CSS in Rails Apps 30min
+Lorem ipsum dolor sit amet consectetur 70min
+adipisicing elit sed do eiusmod tempor 288min
+incididunt ut labore et dolore magna aliqua 99min
+User Interface CBITCHEEO Apps 240min
+Ut enim ad minim veniam quis nostrud exercitation 98min
+ullamco laboris nisi ut aliquip ex ea commodo 5min
+consequat. Duis aute irure dolor in 6min
+reprehenderit in voluptate velit esse 7min
+cillum dolore eu fugiat nulla pariatur 207min
+User Interface CSS in Rails Apps 240min
+Excepteur sint occaecat cupidatat non proident 34min
+sunt in culpa qui officia deserunt mollit 180min
+anim id est laborum lightning

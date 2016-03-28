@@ -1,12 +1,9 @@
 class MainMethods
   def inputs
-    var = 'init'
     array = []
-    while(var != '')
-      var = gets.chomp
-      array << var;
+    File.open(ARGV[0]).each_line do |line|
+      array << line.split("\n")[0]
     end
-    array.pop
     array
   end
 
