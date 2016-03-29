@@ -15,6 +15,6 @@ describe Schedule do
                             "02:40PM yet another one 90min\n" +
                             "04:10PM Networking Event\n\nTrack 2:\n" +
                             "09:00AM the final conference 65min\n" +
-                            "12:00PM Lunch\n04:00PM Networking Event"
+                            "12:00PM Lunch\n04:00PM Networking Event\n\n"
   end
 end

@@ -1,0 +1,3 @@
+Test conference name 60min
+Name of a test conference lightning
+Another conference name for testing 45min
